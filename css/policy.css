@@ -1,8 +1,8 @@
 .h3 {
-  font-family: Ilisarniq, sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 23px;
   color: #FFFFFF;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .sidebar-container-item span {
-  font-family: Ilisarniq, sans-serif;
+  font-family: 'Ilisarniq-Regular', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -85,7 +85,7 @@
 }
 
 .content-container h1 {
-  font-family: Ilisarniq, sans-serif;
+  font-family: 'Ilisarniq-Bold', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -109,7 +109,7 @@
 }
 
 .content span {
-  font-family: Ilisarniq, sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -117,7 +117,7 @@
 }
 
 .content a {
-  font-family: Ilisarniq, sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -126,6 +126,7 @@
 }
 
 .content b {
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
 }
 

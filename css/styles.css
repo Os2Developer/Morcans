@@ -7,9 +7,45 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   background-color: #222227;
 }
+
+@font-face {
+  font-family: 'Ilisarniq-Light';
+  src: url('../fonts/Ilisarniq-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ilisarniq-Regular';
+  src: url('../fonts/Ilisarniq-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ilisarniq-Demi';
+  src: url('../fonts/Ilisarniq-Demi.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ilisarniq-Bold';
+  src: url('../fonts/Ilisarniq-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ilisarniq-Black';
+  src: url('../fonts/Ilisarniq-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 .body-no-scroll {
   overflow: hidden;
@@ -31,8 +67,6 @@ header {
   -webkit-backdrop-filter: blur(48px); /* Safari */
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom-left-radius: 32px;
-  border-bottom-right-radius: 32px;
 }
 
 .header-container {
@@ -44,7 +78,7 @@ header {
 }
 
 .logo {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Black', sans-serif;
   font-weight: 900;
   font-size: 24px;
   line-height: 28.8px;
@@ -62,7 +96,7 @@ nav ul {
 }
 
 nav li {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -76,7 +110,7 @@ nav li {
   width: 153px;
   height: 42px;
   padding: 10px 24px;
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -126,7 +160,7 @@ nav li {
 }
 
 .menu-pop-up-close-block span {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Bold', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -160,7 +194,7 @@ nav li {
 }
 
 .pop-up-info-block-title {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Bold', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -168,7 +202,7 @@ nav li {
 }
 
 .pop-up-info-block-text {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -190,7 +224,7 @@ nav li {
 }
 
 .form-label {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Regular', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -199,7 +233,7 @@ nav li {
 }
 
 .form-input {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
@@ -237,7 +271,7 @@ nav li {
 }
 
 .contact-form-button span {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -245,7 +279,7 @@ nav li {
 }
 
 .error {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Regular', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 17px;
@@ -307,7 +341,7 @@ nav li {
 }
 
 .info-text-block-title {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Regular', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -315,11 +349,11 @@ nav li {
 }
 
 .info-text-block-text {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   text-decoration: underline;
 }
 
@@ -342,7 +376,7 @@ nav li {
 }
 
 .copyright-info {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Regular', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -356,7 +390,7 @@ nav li {
 }
 
 .links-block a {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -491,7 +525,7 @@ nav li {
 
 @media (max-width: 767px) {
   header {
-    height: 66px;
+    height: 75px;
     padding: 16px;
     align-items: center;
     display: flex;
@@ -521,15 +555,15 @@ nav li {
   .hamburger-menu {
     display: flex;
     flex-direction: column;
-    width: 15px;
-    gap: 4px;
+    width: 20px;
+    gap: 5px;
     cursor: pointer;
   }
 
   .hamburger-menu-line {
     width: 100%;
-    height: 2px;
-    background-color: #CCA24B;
+    height: 3px;
+    background-color: #F7F7F7;
     border-radius: 3px;
   }
 
@@ -595,7 +629,7 @@ nav li {
   }
 
   .mobile-menu-info span {
-    font-family: 'Ilisarniq', sans-serif;
+    font-family: 'Ilisarniq-Regular', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.8px;
@@ -614,9 +648,9 @@ nav li {
   /* Footer */
 
   .footer-container {
-    padding: 60px 16px;
+    padding: 60px 24px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 32px;
   }
 
@@ -639,9 +673,13 @@ nav li {
     padding: 32px 16px;
   }
 
+  .copyright-info {
+    display: none;
+  }
+
   .links-block {
     gap: 12px;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .links-block a {

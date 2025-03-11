@@ -1,5 +1,5 @@
 .h3 {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
@@ -38,7 +38,7 @@ p {
 }
 
 .hero-title {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Black', sans-serif;
   font-weight: 900;
   font-size: 52px;
   line-height: 72px;
@@ -50,7 +50,7 @@ p {
 }
 
 .hero-content p {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
@@ -59,7 +59,7 @@ p {
 }
 
 .hero-content span {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -150,6 +150,7 @@ p {
   left: 0px;
   height: 914px;
   z-index: 1;
+  display: block;
 }
 
 .morcans-rules-content {
@@ -176,7 +177,7 @@ p {
 }
 
 .advantages-info-title {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
@@ -192,7 +193,7 @@ p {
 }
 
 .morcans-info p {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Bold', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -200,7 +201,7 @@ p {
 }
 
 .morcans-info span {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -215,7 +216,7 @@ p {
 }
 
 .rules-info-title {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Bold', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -237,7 +238,7 @@ p {
 }
 
 .rule-block span {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -262,8 +263,7 @@ p {
 }
 
 .ceo-quote-text {
-  font-family: 'Ilisarniq', sans-serif;
-  font-weight: 300;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-size: 24px;
   line-height: 36px;
   color: #252525;  
@@ -287,7 +287,7 @@ p {
 }
 
 .ceo-name {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -295,7 +295,7 @@ p {
 }
 
 .ceo-position {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -375,7 +375,7 @@ p {
 }
 
 .slider-item-info-title {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Bold', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -383,7 +383,7 @@ p {
 }
 
 .slider-item-info-text {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -447,7 +447,7 @@ p {
 }
 
 .advantages-info-item-title span {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Demi', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
@@ -460,7 +460,7 @@ p {
 }
 
 .advantages-info-item-text {
-  font-family: 'Ilisarniq', sans-serif;
+  font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -884,8 +884,10 @@ p {
 
   .hero {
     height: 100svh;
-    padding: 0 16px 60px;
+    padding: 0 24px 60px;
     flex-direction: column;
+    background: url("../img/hero-img.png") no-repeat bottom left 38%;
+    background-color: #252525;
   }
 
   .hero-content {
@@ -919,7 +921,7 @@ p {
     width: 100%;
     height: 100%;
     padding: 10px 24px;
-    font-family: 'Ilisarniq', sans-serif;
+    font-family: 'Ilisarniq-Demi', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -997,7 +999,7 @@ p {
   }
 
   .mobile-menu-info span {
-    font-family: 'Ilisarniq', sans-serif;
+    font-family: 'Ilisarniq-Regular', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.8px;
@@ -1014,18 +1016,18 @@ p {
   }
 
   .scroll-down {
-    bottom: unset;
-    left: unset;
-    position: relative;
+    bottom: 7%;
+    left: 50%;
+    position: absolute;
     width: 52px;
     height: 52px;
-    transform: none;
+    transform: translate(-50%, -50%);
   }
 
   /* Our partners section */
 
   .our-partners {
-    padding: 60px 16px 48px;
+    padding: 60px 24px 48px;
   }
 
   .our-partners-content {
@@ -1053,14 +1055,14 @@ p {
     gap: 0;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     max-width: 100%;
   }
 
   .logo-block-row img {
-    height: 88px;
-    width: auto;
+    height: 85px;
+    width: 44%;
     max-width: 48%;
     object-fit: contain;
   }
@@ -1068,30 +1070,40 @@ p {
   /* Morcans rules section */
 
   .morcans-rules {
-    padding: 0px 16px;
-    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 55%, #252525 55%, #252525 100%);
+    padding: 0px;
+    background: none;
+    overflow: hidden;
   }
 
   .morcans-rules-img {
-    height: 380px;
-    top: unset;
-    bottom: -120px;
+    display: none;
   }
 
   .morcans-rules-content {
-    gap: 60px;
+    gap: 32px;
     flex-direction: column-reverse;
+    background-color: #252525;
   }
   
   .morcans-rules-advantages {
     width: 100%;
     justify-content: center;
+    padding: 0px 24px;
+    background-color: #252525;
+  }
+
+  .rules {
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
   }
 
   .soax-info {
     width: 100%;
     flex-direction: column;
     align-items: center;
+    padding: 0px 24px 48px;
+    background-color: #FFFFFF;
   }
 
   .advantages-info-title {
@@ -1130,7 +1142,7 @@ p {
   }
 
   .soax-ceo-quote {
-    gap: 16px;
+    gap: 24px;
     max-width: 472px;
   }
 
@@ -1140,22 +1152,22 @@ p {
 
   .ceo-quote-text {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 24px;
   }
 
   .stepan-signature-img {
-    position: relative;
-    height: 100px;
-    bottom: unset;
+    position: absolute;
+    height: 65px;
+    bottom: 20%;
     left: unset;
+    right: -5%;
     object-fit: contain;
-    margin-top: 24px;
   }
 
   /* Our services section */
 
   .our-services {
-    padding: 60px 16px 0;
+    padding: 60px 24px 0;
   }
 
   .our-services-content {
@@ -1234,7 +1246,7 @@ p {
   /* Our advantages section */
 
   .our-advantages {
-    padding: 60px 16px;
+    padding: 60px 24px;
   }
 
   .our-advantages-content {
