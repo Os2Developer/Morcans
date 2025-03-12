@@ -264,4 +264,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+  .content a {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
