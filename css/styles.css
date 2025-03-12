@@ -77,14 +77,8 @@ header {
   margin: 0 auto;
 }
 
-.logo {
-  font-family: 'Ilisarniq-Black', sans-serif;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #FFFFFF;
-  letter-spacing: 2px;
-  text-decoration: none;
+.logo-img {
+  height: 64px;
 }
 
 nav ul {
@@ -137,10 +131,11 @@ nav li {
 .menu-pop-up-content {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 27%;
-  padding-bottom: 124px;
-  gap: 36px;
+  height: 100vh;
+  width: 36%;
+  max-width: 520px;
+  justify-content: flex-start;
+  gap: 32px;
   background-color: #FFFFFF;
   backdrop-filter: blur(48px);
   position: absolute;
@@ -182,7 +177,8 @@ nav li {
 }
 
 .pop-up-info-block img {
-  height: 124px;
+  height: 64px;
+  width: 64px;
 }
 
 .pop-up-info-block div {
@@ -229,19 +225,19 @@ nav li {
   font-size: 14px;
   line-height: 20px;
   color: #252525;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .form-input {
   font-family: 'Ilisarniq-Light', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 23px;
   color: #1E1E1E; 
   border: 1px solid #EEEEEE;
   height: 45px;
   width: 100%;
-  padding: 10px;
+  padding: 10px 12px;
 }
 
 .service {
@@ -330,6 +326,16 @@ nav li {
   justify-content: flex-start;
 }
 
+.logo {
+  font-family: 'Ilisarniq-Black', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
 .company-info-item img {
   width: 24px;
   height: 24px;
@@ -407,7 +413,7 @@ nav li {
 
 @media (max-width: 1279px) and (min-width: 1024px) {
   .menu-pop-up-content {
-    width: 35%;
+    width: 40%;
     gap: 22px;
   }
 
@@ -421,23 +427,20 @@ nav li {
     height: 26px;
   }
 
-  .pop-up-info-block img {
-    height: 94px;
-  }
-
   .pop-up-info-block-title {
     font-size: 17px;
     line-height: 23px;
   }
 
   .pop-up-contact-form {
-    gap: 8px;
+    gap: 12px;
   }
 
   .form-input {
     font-size: 17px;
-    line-height: 19px;
+    line-height: 21px;
     height: 40px;
+    padding: 8px 12px;
   }
 
   .service-option {
@@ -463,6 +466,10 @@ nav li {
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
+  .logo-img {
+    height: 48px;
+  }
+
   .menu-pop-up-content {
     width: 45%;
     gap: 18px;
@@ -479,7 +486,8 @@ nav li {
   }
 
   .pop-up-info-block img {
-    height: 94px;
+    height: 32px;
+    width: 32px;
   }
 
   .pop-up-info-block-title {
@@ -539,9 +547,8 @@ nav li {
     align-items: center;
   }
 
-  .logo {
-    font-size: 22px;
-    line-height: 25px;
+  .logo-img {
+    height: 40px;
   }
 
   nav {
@@ -555,14 +562,14 @@ nav li {
   .hamburger-menu {
     display: flex;
     flex-direction: column;
-    width: 20px;
+    width: 24px;
     gap: 5px;
     cursor: pointer;
   }
 
   .hamburger-menu-line {
     width: 100%;
-    height: 3px;
+    height: 2px;
     background-color: #F7F7F7;
     border-radius: 3px;
   }
@@ -604,6 +611,22 @@ nav li {
 
   .menu-pop-up-close-block {
     justify-content: center;
+    padding: 8px 16px;
+  }
+
+  .pop-up-info-block {
+    gap: 16px;
+    padding: 0;
+  }
+
+  .pop-up-info-block img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .pop-up-contact-form {
+    gap: 12px;
+    padding: 0;
   }
 
   .mobile-menu-header {
@@ -619,7 +642,7 @@ nav li {
   .mobile-form {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
   }
 
   .mobile-menu-info {
@@ -662,6 +685,11 @@ nav li {
   .info-text-block-title {
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .logo {
+    font-size: 22px;
+    line-height: 25px;
   }
 
   .info-text-block-text {

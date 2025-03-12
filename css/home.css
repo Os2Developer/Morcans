@@ -127,9 +127,29 @@ p {
   align-items: center;
 }
 
-.logo-block-row img {
+.logo-block-row-item {
+  width: 264px;
   height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.sumatosoft-img { height: 32px; }
+
+.momondo-img { height: 30px; }
+
+.beehiiv-img { height: 45px; }
+
+.doer-img { height: 49px; }
+
+.soax-img { height: 36px; }
+
+.rakuten-img { height: 52px; }
+
+.mpax-img { height: 56px; }
+
+.nextbit-img { height: 41px; }
 
 /* Morcans rules section */
 
@@ -259,7 +279,7 @@ p {
 }
 
 .soax-logo-img {
-  height: 52px;
+  height: 32px;
 }
 
 .ceo-quote-text {
@@ -485,10 +505,22 @@ p {
   .our-partners-content {
     gap: 60px;
   }
-
-  .logo-block-row img {
-    height: 165px;
-  }
+  
+  .sumatosoft-img { height: 32px; }
+  
+  .momondo-img { height: 30px; }
+  
+  .beehiiv-img { height: 45px; }
+  
+  .doer-img { height: 49px; }
+  
+  .soax-img { height: 36px; }
+  
+  .rakuten-img { height: 52px; }
+  
+  .mpax-img { height: 56px; }
+  
+  .nextbit-img { height: 41px; }
 
   /* Morcans rules section */
 
@@ -583,9 +615,29 @@ p {
     gap: 24px;
   }
 
-  .logo-block-row img {
-    height: 125px;
+  .logo-block-row-item {
+    width: 200px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  
+  .sumatosoft-img { height: 24px; }
+  
+  .momondo-img { height: 26px; }
+  
+  .beehiiv-img { height: 36px; }
+  
+  .doer-img { height: 36px; }
+  
+  .soax-img { height: 24px; }
+  
+  .rakuten-img { height: 36px; }
+  
+  .mpax-img { height: 36px; }
+  
+  .nextbit-img { height: 24px; }
 
   /* Morcans rules section */
 
@@ -625,6 +677,10 @@ p {
     height: 150px;
     bottom: -50%;
     left: 35%;
+  }
+
+  .soax-logo-img {
+    height: 26px;
   }
 
   /* Our services section */
@@ -723,9 +779,29 @@ p {
     gap: 16px;
   }
 
-  .logo-block-row img {
-    height: 110px;
+  .logo-block-row-item {
+    width: 160px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  
+  .sumatosoft-img { height: 20px; }
+  
+  .momondo-img { height: 20px; }
+  
+  .beehiiv-img { height: 28px; }
+  
+  .doer-img { height: 28px; }
+  
+  .soax-img { height: 20px; }
+  
+  .rakuten-img { height: 28px; }
+  
+  .mpax-img { height: 28px; }
+  
+  .nextbit-img { height: 20px; }
 
   /* Morcans rules section */
 
@@ -780,7 +856,7 @@ p {
   }
 
   .soax-logo-img {
-    height: 48px;
+    height: 24px;
   }
 
   .ceo-quote-text {
@@ -969,10 +1045,6 @@ p {
     width: 100%;
   }
 
-  .menu-pop-up-close-block {
-    justify-content: center;
-  }
-
   .hero-mobile-menu-header {
     display: flex;
     width: 100%;
@@ -984,35 +1056,6 @@ p {
 
   .pop-up-back-arrow, .pop-up-close-icon {
     cursor: pointer;
-  }
-
-  .mobile-form {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .mobile-menu-info {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .mobile-menu-info span {
-    font-family: 'Ilisarniq-Regular', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24.8px;
-    color: rgba(227, 234, 241, 1);
-    cursor: pointer;
-  }
-
-  .mobile-menu-info span:hover {
-    color: #CCA24B;
-  }
-
-  .pop-up-mobile-btn {
-    display: block;
   }
 
   .scroll-down {
@@ -1052,20 +1095,38 @@ p {
 
   .logo-block-row {
     display: flex !important;
-    gap: 0;
+    gap: 24px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     max-width: 100%;
   }
 
-  .logo-block-row img {
+  .logo-block-row-item {
     height: 85px;
-    width: 44%;
+    width: 48%;
     max-width: 48%;
-    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  
+  .sumatosoft-img { height: 20px; margin-top: 5px; }
+  
+  .momondo-img { height: 18px; }
+  
+  .beehiiv-img { height: 28px; }
+  
+  .doer-img { height: 28px; }
+  
+  .soax-img { height: 20px; }
+  
+  .rakuten-img { height: 30px; margin-top: 5px; }
+  
+  .mpax-img { height: 26px; }
+  
+  .nextbit-img { height: 24px; }
 
   /* Morcans rules section */
 
@@ -1147,7 +1208,7 @@ p {
   }
 
   .soax-logo-img {
-    height: 32px;
+    height: 16px;
   }
 
   .ceo-quote-text {
@@ -1218,6 +1279,10 @@ p {
   .slick-dots {
     position: relative;
     bottom: unset;
+  }
+
+  .slick-dots li {
+    margin: 0;
   }
 
   .slick-dots li button::before {
